@@ -410,3 +410,31 @@ mixin list
 
 ## Includes(템플릿 파일들 불러오기)
 
+include { 파일 경로 }만 적어주시면 됩니다.
+
+```js
+html
+  include includes/head.pug
+  body
+    h1 My Site
+```
+
+# 템플릿을 나누어 블로그 만들기
+
+위의 Includes 설명만으론 이해가 안될 수 있으니 실제로 블로그를 개발해봅시다.
+
+## 생성해야 할 파일들
+
+- blog.pug
+- includes/header.pug
+- includes/footer.pug
+
+## 뼈대 (blog.pug)
+
+## 헤더 (header.pug)
+
+## 푸터 (footer.pug)
+
+# 마치면서
+
+해당 강좌에서 사용된 프로젝트는 [호호](https://naver.com)에 올려뒀습니다.

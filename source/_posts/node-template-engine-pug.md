@@ -421,7 +421,7 @@ html
 
 # 템플릿을 나누어 블로그 만들기
 
-위의 Includes 설명만으론 이해가 안될 수 있으니 실제로 블로그를 개발해봅시다.
+위의 Includes 설명만으론 이해가 안될 수 있을 겁니다. Includes를 익히기 위해 블로그를 개발해봅시다.
 
 ## 생성해야 할 파일들
 
@@ -431,10 +431,52 @@ html
 
 ## 뼈대 (blog.pug)
 
+```js
+doctype html
+html
+  title My Blog
+  body
+    include includes/header.pug // 헤더를 불러옵니다.
+    p#main Welcome to my blog. // 헤더와 푸터 사이의 내용을 입력합니다.
+    include includes/footer.pug // 푸터를 불러옵니다.
+```
+
 ## 헤더 (header.pug)
+
+```js
+head
+  title My Blog
+```
 
 ## 푸터 (footer.pug)
 
+```js
+footer#footer
+  p Copyright (c) anonymous
+```
+
+## 결과물
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Blog</title>
+  </head>
+  <body>
+    <h1>My Blog</h1>
+    <p id="main">Welcome to my blog.</p>
+    <footer id="footer">
+      <p>Copyright (c) anonymous</p>
+    </footer>
+  </body>
+</html>
+```
+
+- include한 header.pug의 'My Blog'가 잘 보입니다.
+- blog.pug에 입력해둔 'Welcome to my blog.'가 잘 보입니다.
+- include한 footer.pug의 'Copyright (c) anonymous'가 잘 보입니다.
+
 # 마치면서
 
-해당 강좌에서 사용된 프로젝트는 [호호](https://naver.com)에 올려뒀습니다.
+해당 강좌에서 사용된 프로젝트는 [github/pug-tutorial](https://github.com/iseongho/pug-tutorial)에 올려뒀습니다.

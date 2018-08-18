@@ -1,4 +1,0 @@
-User-agent: *
-Allow:/
-
-Sitemap: https://iseongho.github.io/sitemap.xml

@@ -95,6 +95,13 @@ feed:
   limit: 20
   hub:
 
+# hexo-generator-robotstxt
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: /sitemap.xml
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

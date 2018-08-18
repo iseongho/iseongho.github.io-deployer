@@ -4,7 +4,7 @@ date: 2018-08-05 23:07:18
 tags: [node, js, template_engine, pug, jade, express]
 ---
 Pug는 요즘 가장 핫한 Node Express Engine입니다.
-Pug를 통해 HTML 코드의 생산성을 증진하고, 동적 + 정적인 View를 만들 수 있도록 Pug에 대하여 알아봅시다.
+Pug를 통해 HTML 코드의 생산성을 증진하고, 동적 + 정적인 View를 만들기 위해 공부해봅시다.
 
 # Node Express Engine Pug의 장점
 

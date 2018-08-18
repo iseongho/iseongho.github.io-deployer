@@ -1,12 +1,13 @@
 ---
 title: 템플릿 엔진 Pug(Jade) 배우기
+intro: Node Express Template Engine Pug를 통해 효율적인 동적 코드를 생산하는 방법
 date: 2018-08-05 23:07:18
 tags: [node, js, template_engine, pug, jade, express]
 ---
-Pug는 요즘 가장 핫한 Node Express Engine입니다.
+Pug는 요즘 가장 핫한 Node Express Template Engine입니다.
 Pug를 통해 HTML 코드의 생산성을 증진하고, 동적 + 정적인 View를 만들기 위해 공부해봅시다.
 
-# Node Express Engine Pug의 장점
+# Template Engine Pug의 장점
 
 - HTML을 간단하게 표현해서 가독성이 좋다.
 - 마크업에 문법보다 코드량이 적어 생산성이 좋아진다.

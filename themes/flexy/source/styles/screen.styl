@@ -22,6 +22,7 @@
 
 // 0.0 Imports
 
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import 'normalize.css'
 @import 'nib'
 @import '_*'
@@ -30,37 +31,21 @@
 
 $font-directory = '../fonts/'
 
-webfont('Droid Serif', 'droidserif/400', 400, normal)
-webfont('Droid Serif', 'droidserif/700', 700, normal)
-webfont('Droid Serif', 'droidserif/400i', 400, italic)
-webfont('Droid Serif', 'droidserif/700i', 700, italic)
-
-webfont('Open Sans', 'opensans/300', 300, normal)
-webfont('Open Sans', 'opensans/400', 400, normal)
-webfont('Open Sans', 'opensans/600', 600, normal)
-webfont('Open Sans', 'opensans/700', 700, normal)
-webfont('Open Sans', 'opensans/800', 800, normal)
-webfont('Open Sans', 'opensans/300i', 300, italic)
-webfont('Open Sans', 'opensans/400i', 400, italic)
-webfont('Open Sans', 'opensans/600i', 600, italic)
-webfont('Open Sans', 'opensans/700i', 700, italic)
-webfont('Open Sans', 'opensans/800i', 800, italic)
-
 webfont('Fira Mono', 'fira/400', 400, normal)
 webfont('Fira Mono', 'fira/500', 500, normal)
 webfont('Fira Mono', 'fira/700', 700, normal)
 
 // 0.2 Typography
 
-$title-font   = 'Open Sans', sans-serif
-$heading-font = 'Open Sans', sans-serif
-$button-font  = 'Open Sans', sans-serif
-$small-font   = 'Droid Serif', Georgia, serif
-$body-font    = 'Droid Serif', Georgia, serif
+$title-font   = 'Jeju Gothic', sans-serif
+$heading-font = 'Jeju Gothic', sans-serif
+$button-font  = 'Jeju Gothic', sans-serif
+$small-font   = 'Jeju Gothic', sans-serif
+$body-font    = 'Jeju Gothic', sans-serif
 $code-font    = 'Fira Mono', monospace, sans-serif
 
 $title-weight   = 400
-$heading-weight = 700
+$heading-weight = 500
 $small-weight   = 400
 $body-weight    = 400
 $code-weight    = 400
@@ -312,11 +297,9 @@ main
   // Full article
   article.full
     padding-bottom 20px
-    h2
-      margin 0
-    ul
-      list-style none
-      padding 0
+    h1#article-title
+      font-weight: bold;
+      font-size: 4.0rem;
     a
       text-decoration underline
       &:hover
@@ -610,29 +593,29 @@ h6
   text-rendering optimizeLegibility
 
 h1
-  font-size 4.5rem
+  font-size 3.5rem
   letter-spacing -2px
   line-height 1.2em
   text-indent -3px
 
 h2
-  font-size 3.9rem
+  font-size 3rem
   letter-spacing -1px
   line-height 1.2em
   text-indent -2px
 
 h3
-  font-size 3.3rem
+  font-size 2.5rem
 
 h4
-  font-size 2.8rem
+  font-size 2rem
   margin-bottom 0
 
 h5
-  font-size 2.4rem
+  font-size 1.5rem
 
 h6
-  font-size 2rem
+  font-size 1rem
 
 a
   transition color ease .3s

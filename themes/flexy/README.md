@@ -1,24 +1,23 @@
-# Flexy
+# Flexy(Custom)
 
-Flexy is a modern theme for [Hexo](https://hexo.io/), written using [Flexbox](https://philipwalton.github.io/solved-by-flexbox/).
-
-![Flexy Screenshot](source/images/screenshot.png)
-
-![Flexy Mobile Screenshot](source/images/screenshot_mobile.png)
+Flexy는 [Hexo](https://hexo.io/)를 위한 블로그이며, 제작에 [Flexbox](https://philipwalton.github.io/solved-by-flexbox/)를 이용했습니다.
 
 ## Demo
 
-You can see the theme in action on my [website](https://svdb.co/).
+[이성호의 블로그](https://iseongho.github.io)에서 실사용 중입니다.
 
 ## Usage
 
-```
-$ git clone https://github.com/sjaakvandenberg/flexy themes/flexy
-$ npm un -S hexo-renderer-ejs
-$ npm i -S hexo-renderer-jade
+[Hexo deployer](https://github.com/iseongho/iseongho.github.io-deployer)에서 Subtree를 이용하여 사용합시다.
+
+```console
+git remote add custom-flexy https://github.com/iseongho/custom-flexy.git
+git subtree add --prefix themes/flexy/ custom-flexy master
+npm un -S hexo-renderer-ejs
+npm i -S hexo-renderer-jade
 ```
 
-Change your `theme` variable to `flexy` in your root's `_config.yml`.
+그 후 Root의 `_config.yml`에서 `theme`를 `flexy`로 바꿔줍니다.
 
 ## Features
 
@@ -53,8 +52,8 @@ In your root's `_config.yml`, set `filename_case` to `1`. Create a new `Articles
 
 ## Fonts
 
-This theme uses Open Sans for headings, Droid Serif for body text and Fira Mono for code. They're located in the `source/fonts` directory in `WOFF` and `WOFF2` formats.
+기본적으로 제주 고딕체를 사용하며, Code는 Fira Mono 글꼴을 사용합니다. 위치는 `source/fonts` 디렉토리의 `WOFF`, `WOFF2` 포맷의 파일들입니다.
 
-## Problems or Improvements
+## Forked from
 
-If you see room for improvements, submit a [PR](https://github.com/sjaakvandenberg/flexy/pull/new/master). If you run into a problem, open an [issue](https://github.com/sjaakvandenberg/flexy/issues/new).
+원본의 Flexy 테마가 궁금하시다면 [sjaakvandenberg/flexy](https://github.com/sjaakvandenberg/flexy)에서 알아보는 것을 추천합니다.

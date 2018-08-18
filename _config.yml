@@ -15,7 +15,7 @@ timezone: Asia/Seoul
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://iseongho.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -77,6 +77,23 @@ theme: flexy
 
 # Disqus
 disqus_shortname: iseongho
+
+# hexo-autonofollow
+nofollow:
+	enable: true
+
+# hexo-generator-seo-friendly-sitemap
+sitemap:
+  path: sitemap.xml
+  tag: true
+  category: true
+
+# hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

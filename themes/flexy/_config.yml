@@ -1,6 +1,6 @@
 # config
 logo: /images/svdb.png
-keywords: "iseongho, front end, back end, developer, development"
+keywords: "iseongho, front end, back end, developer"
 menu:
   Home: /
 
@@ -8,5 +8,5 @@ menu:
 excerpt_link: Read more
 
 # Miscellaneous
-rss: /atom.xml
+rss: /rss2.xml
 google_analytics:

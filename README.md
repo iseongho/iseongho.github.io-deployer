@@ -13,7 +13,7 @@
 
 컴퓨터에 이미 이런 것들이 설치되어 있다면, 축하드립니다! 이제 npm을 이용하여 Dependencies를 설치하기만 하면 됩니다.
 
-```shell
+```console
 npm install
 ```
 
@@ -21,7 +21,7 @@ npm install
 
 아래의 커맨드로 새로운 문서를 발행합니다:
 
-```shell
+```console
 hexo new <제목>
 ```
 
@@ -38,7 +38,7 @@ tags:
 
 아래의 커맨드로 문서의 정적 리소스를 생성합니다:
 
-```shell
+```console
 hexo generate
 ```
 
@@ -46,6 +46,6 @@ hexo generate
 
 아래의 커맨드로 배포합니다:
 
-```shell
+```console
 hexo deploy
 ```

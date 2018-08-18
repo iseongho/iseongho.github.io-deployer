@@ -1,6 +1,6 @@
-# [iseongho.github.io-deployer](https://iseongho.github.io)
+# iseongho.github.io-deployer
 
-이성호의 블로그 배포기입니다.
+[이성호의 블로그](https://iseongho.github.io) 배포기입니다.
 
 ## Usage
 

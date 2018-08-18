@@ -15,7 +15,7 @@ timezone: Asia/Seoul
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://iseongho.github.io
 root: /
-permalink: :title/
+permalink: posts/:title/
 permalink_defaults:
 
 # Directory
@@ -90,8 +90,8 @@ sitemap:
 
 # hexo-generator-feed
 feed:
-  type: atom
-  path: atom.xml
+  type: rss2
+  path: rss2.xml
   limit: 20
   hub:
 
@@ -100,7 +100,7 @@ robotstxt:
   useragent: "*"
   allow:
     - /
-  sitemap: /sitemap.xml
+  sitemap: https://iseongho.github.io/sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

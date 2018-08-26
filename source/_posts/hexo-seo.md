@@ -5,7 +5,7 @@ date: 2018-08-26 17:27:39
 tags: [hexo, seo, github-pages]
 category: hexo
 ---
-Hexo와 같이 개인이 직접 만들어 운영하는 블로그는 직접 검색 엔진 최적화(영어: search engine optimization, SEO)를 시켜줘야 합니다. 나름 시간을 많이 투자해야하는 작업인데 다행히도 Hexo는 SEO와 관련된 플러그인이 많이 있습니다. 해당 글에선 그 플러그인들을 이용한 SEO에 대해 다뤄보겠습니다.
+Hexo와 같이 개인이 직접 만들어 운영하는 블로그는 직접 검색 엔진 최적화(영어: search engine optimization, SEO)를 시켜줘야 합니다. 나름 시간을 많이 투자해야 하는 작업인데 다행히도 Hexo는 SEO와 관련된 플러그인이 많이 있습니다. 해당 글에선 그 플러그인들을 이용한 SEO에 대해 다뤄보겠습니다.
 
 # 플러그인 설치 및 사용
 

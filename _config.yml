@@ -85,15 +85,14 @@ nofollow:
 # hexo-generator-seo-friendly-sitemap
 sitemap:
   path: sitemap.xml
-  tag: true
-  category: true
+  tag: false
+  category: false
 
 # hexo-generator-feed
 feed:
   type: rss2
   path: rss2.xml
   limit: 20
-  hub:
 
 # hexo-generator-robotstxt
 robotstxt:

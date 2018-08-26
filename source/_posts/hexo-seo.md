@@ -1,6 +1,6 @@
 ---
 title: Hexo SEO - 하루 만에 검색 엔진 최적화 시키기
-intro: Hexo로 만들어진 블로그를 빠르게 검색 엔진 최적화 시키는 방법
+intro: Hexo로 만들어진 블로그를 빠르게 검색 엔진 최적화시키는 방법
 date: 2018-08-26 17:27:39
 tags: [hexo, seo, github-pages]
 category: hexo

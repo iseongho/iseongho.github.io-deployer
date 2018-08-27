@@ -14,6 +14,7 @@
 컴퓨터에 이미 이런 것들이 설치되어 있다면, 축하드립니다! 이제 npm을 이용하여 Dependencies를 설치하기만 하면 됩니다.
 
 ```console
+npm install -g hexo-cli
 npm install
 ```
 
@@ -28,7 +29,7 @@ hexo new <제목>
 source/_posts 폴더에 <제목>.md 마크다운 문서가 생성됩니다.
 
 ```js
----
+---yml
 title: Hello World
 date: 2018-07-29 15:49:05
 tags:

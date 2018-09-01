@@ -1,5 +1,5 @@
 ---
-title: 템플릿 엔진 Pug(Jade) 배우기
+title: 템플릿 엔진 Pug(Jade) 사용법
 intro: Node Express Template Engine Pug를 통해 효율적인 동적 View를 생산하는 방법
 date: 2018-08-05 23:07:18
 tags: [node, js, template_engine, pug, jade, express, html]

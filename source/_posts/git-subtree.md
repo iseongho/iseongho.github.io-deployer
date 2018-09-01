@@ -1,5 +1,5 @@
 ---
-title: Git Subtree - 하나의 저장소에서 여러 저장소를 관리하기
+title: Git Subtree 사용법 - 하나의 저장소에서 여러 저장소를 관리하기
 intro: 상위 저장소에서 하위 저장소들을 통합 관리하는 방법
 date: 2018-08-19 13:35:13
 tags: [git, subtree]

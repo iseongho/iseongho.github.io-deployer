@@ -1,6 +1,6 @@
 ---
 title: Cron Expression - Cron 예약 표현식 배우기
-intro: Cron job을 돌리기 위해 예약 표현식에 작성법에 대해 알아봅시다.
+intro: Cron Job을 돌리기 위해 예약 표현식에 작성법에 대해 알아봅시다.
 date: 2018-09-01 18:32:19
 tags: [cron, expression, job, schedule]
 category: expression

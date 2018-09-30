@@ -22,7 +22,7 @@
 
 // 0.0 Imports
 
-@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css)
 @import 'normalize.css'
 @import 'nib'
 @import '_*'
@@ -298,8 +298,8 @@ main
   article.full
     padding-bottom 20px
     h1#article-title
-      font-weight: bold;
-      font-size: 4.0rem;
+      font-weight: bold
+      font-size: 4.0rem
     a
       &:hover
         color $body-link-hover-color
@@ -655,6 +655,21 @@ dl
 table
   margin 20px 0
 
+table
+  border-radius: 0.3em
+  border: 1px solid #ccc
+
+table > thead > tr > th
+  padding: 10px
+  font-weight: bold
+  border: 1px solid #ccc
+  background: #eee
+
+table > tbody > tr > td
+  padding: 10px
+  border: 1px solid #ccc
+  background-color: #fff
+
 ol ol
 ul ul
 ul ol
@@ -784,13 +799,18 @@ figure.highlight
       margin-left .3em
 
   table
+    border: none
     margin 0
 
   table > tbody > tr > td
     padding 0
     background $white
 
+  table > tbody > tr > td.code
+    border: none;
+
   table > tbody > tr > td.gutter
+    border: none
     background-color #222
     max-width 40px
     text-align right
@@ -958,4 +978,4 @@ pre .chunk
   font-size 1.1rem
 
 .code .line a
-  color: #e6db74;
+  color: #e6db74

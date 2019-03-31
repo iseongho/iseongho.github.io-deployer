@@ -21,7 +21,7 @@ python filename.py &
 
 # 사용법
 
-# 데몬 형태 실행 방법
+## 데몬 형태 실행 방법
 
 ```terminal
 nohup python filename.py &
@@ -35,7 +35,7 @@ nohup python filename.py &
 nohup python -u filename.py &
 ```
 
-# 로그보는 방법
+## 로그보는 방법
 
 ```terminal
 tail -f nohup.out

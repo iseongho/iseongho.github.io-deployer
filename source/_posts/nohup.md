@@ -1,5 +1,5 @@
 ---
-title: [Linux] 백그라운드 작업 nohup 사용법
+title: (Linux) 백그라운드 작업 nohup 사용법
 intro: 터미널 종료 시 프로세스 중단을 무시하고 계속해서 백그라운드로 돌리는 방법
 date: 2019-03-31 15:01:22
 tags: [linux, nohup, python]

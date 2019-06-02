@@ -1,5 +1,5 @@
 ---
-title: 자바스크립트의 특징 이벤트 루프 이해하기
+title: 자바스크립트 특징 - 이벤트 루프
 intro: 단일 쓰레드인 자바스크립트(Javascript)가 동시성을 지원하는 방법
 date: 2019-03-17 21:25:48
 tags: [js, javascript, eventloop, singlethread, settimeout, promise]

@@ -1,5 +1,5 @@
 ---
-title: HTTP와 HTTPS의 차이 그리고 SSL에 대한 설명
+title: HTTP와 HTTPS(SSL)의 차이
 intro: HTTP와 HTTPS의 차이를 이해하고 계십니까? 더불어 SSL까지 학습해봅시다.
 date: 2019-02-17 19:54:32
 tags: [http, https, ssl]
@@ -8,9 +8,9 @@ category: html
 오늘날의 우리는 HTTP와 HTTPS라는 통신 규약을 사용하며 살아가고 있습니다.
 우리가 사용하고 있는 그것들을 이해해봅시다.
 
-# HTTP VS HTTPS
+## HTTP VS HTTPS
 
-## HTTP
+### HTTP
 
 HTTP는 Hypertext Transfer Protocol의 약자입니다. 풀어서 해석하자면 이렇습니다.
 
@@ -19,29 +19,29 @@ HTTP는 Hypertext Transfer Protocol의 약자입니다. 풀어서 해석하자�
 
 다시 합쳐 생각하자면 Client와 Server가 HTML을 주고받을 수 있는 양식과 규칙의 체계입니다. HTTP를 통해 Server는 Client가 원하는 것이 무엇인지 알고 HTML이 포함된 Text를 줄 수 있습니다. 누군가 이 신호를 가로챈다면 Text의 내용을 본다거나 변조할 수 있습니다.
 
-### HTTP 요약
+#### HTTP 요약
 
 - Client와 Server가 HTML을 주고받을 수 있는 Protocol입니다.
 - 암호화 과정이 없습니다.
 
-## HTTPS
+### HTTPS
 
 HTTPS는 HTTP에서 S가 추가됐습니다. S는 Over Secure Socket Layer의 약자입니다. 이 약자에서 중요한 것은 Secure(보안)입니다. 쉽게 말하자면 보안이 강화된 HTTP입니다.
 
 이것이 왜 존재하게 되었냐면 앞서 말했듯이 HTTP는 누군가 이 신호를 가로챌 수 있고 변조할 수 있습니다. 악의적인 의도로 회원 정보, 결제 정보 등등 민감한 정보를 감청하고 변조하지 못하게 하기 위해서입니다. HTTP에 SSL과 같은 보안 계층을 추가함으로써 보안을 강화했습니다.
 
-### HTTPS 요약
+#### HTTPS 요약
 
 - 보안이 강화된 HTTP입니다.
 - HTTP에 SSL과 같은 보안 계층을 추가함으로써 보안을 강화했습니다.
 
-# SSL
+## SSL
 
 넷스케이프에서 개발한 인터넷 보안 Protocol이고, 위에서 말했듯이 SSL은 Secure Socket Layer의 약자입니다.
 
 SSL은 공인된 제 3자 인증 기관이 보증해주는 전자화된 문서(Certificate Authority or CA)로 부터 서버와 클라이언트의 인증을 하는 데 사용됩니다. 또한 브라우저가 CA 목록을 알고 있으므로 여기 포함되어야 공인된 CA가 될 수 있습니다.
 
-## SSL의 암호화 종류
+### SSL의 암호화 종류
 
 SSL의 암호화 종류를 알기에 앞서 키라는 개념을 이해해야 합니다. 암호화를 할 때 사용하는 일종의 비밀번호를 키라고 합니다. 키에 따라 암호화된 결과가 다르기 때문에 키를 알아야만 암호화와 복호화가 가능합니다.
 
@@ -55,7 +55,7 @@ SSL의 암호화 종류를 알기에 앞서 키라는 개념을 이해해야 합
   - 암호화의 키와 복호화의 키가 다르지만 수학적 원리를 통해 해독이 가능합니다.
   - 알고리즘 계산 방식이 다소 느림
 
-## SSL의 동작 방법
+### SSL의 동작 방법
 
 대칭키는 보안 문제가 있고, 공개키는 계산 방식이 다소 느리기 때문에 SSL에서는 대칭키와 공개키를 혼합해서 사용합니다.
 

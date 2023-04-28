@@ -17,7 +17,7 @@
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-robotstxt": "^0.2.0",
-    "hexo-generator-seo-friendly-sitemap": "0.0.21",
+    "hexo-generator-seo-friendly-sitemap": "0.2.1",
     "hexo-generator-tag": "^0.2.0",
     "hexo-prism-plugin": "^2.3.0",
     "hexo-renderer-jade": "^0.4.1",
